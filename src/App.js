@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -10,7 +9,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <button onClick={sayHello}>Click Me</button>;
+        <h1>Welcome to React Website</h1>
+        <button onClick={sayHello}>Click Me</button>  
       </header>
     </div>
   );
